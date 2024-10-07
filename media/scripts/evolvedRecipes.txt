@@ -1,0 +1,12 @@
+module Base {
+	
+	evolvedrecipe JunkiezProteinShake
+	{
+		BaseItem:WaterPot,
+		MaxItems:6,
+		ResultItem:PotOfSoupRecipe,
+		Cookable:true,
+		Name:Prepare Soup,
+		CanAddSpicesEmpty:true,
+	}
+}

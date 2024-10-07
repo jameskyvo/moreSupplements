@@ -1,0 +1,52 @@
+module JunkiezMoreSupplements {
+    imports {
+        Base
+    }
+    /** Comments can be multiline like this
+        and can appear anywhere in the file, even in the
+        middle of a { block }
+    **/
+	item JunkiezProteinShake
+	{
+		DisplayName = Protein Shake,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CustomContextMenu = Drink,
+		Icon = JunkiezProteinShake,
+		CantBeFrozen = TRUE,
+		HungerChange = -15,
+		Calories = 250,
+		Carbohydrates = 18,
+		Lipids = 12,
+		Proteins = 120,
+		ThirstChange = -20,
+		ReplaceOnDeplete = WaterBottleEmpty,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		StaticModel = WaterBottle,
+		WorldStaticModel = WaterBottleFull,
+		UseDelta = 0.1,
+		UseWhileEquipped = FALSE,
+	}
+	
+	item JunkiezProteinPowder
+	{
+		DisplayName = Protein Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.0,
+		Icon = JunkiezProteinPowder,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = Soup:5,
+		Packaged = TRUE,
+		HungerChange = -40,
+		Calories = 2440,
+		Carbohydrates = 48,
+		Lipids = 120,
+		Proteins = 480,
+		UnhappyChange = 20,
+		ThirstChange = 50,
+	}
+	
+}
+
