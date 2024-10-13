@@ -37,7 +37,7 @@ module JunkiezMoreSupplements {
 		Weight = 1.0,
 		Icon = JunkiezProteinPowder,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = Soup:5,
+		EvolvedRecipe = JunkiezProteinShake:5,
 		Packaged = TRUE,
 		HungerChange = -40,
 		Calories = 2440,
