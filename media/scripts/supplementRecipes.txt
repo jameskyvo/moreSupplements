@@ -1,5 +1,4 @@
 module Base {
-	
 	evolvedrecipe JunkiezProteinShake
 	{
 		BaseItem:WaterPot,
