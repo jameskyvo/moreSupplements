@@ -4,7 +4,6 @@ module Base {
 		BaseItem:WaterBottleFull,
 		MaxItems:4,
 		ResultItem:JunkiezMoreSupplements.JunkiezProteinShake,
-		Cookable:false,
 		Name:Prepare Protein Shake,
 		CanAddSpicesEmpty:true,
 	}
