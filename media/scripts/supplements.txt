@@ -24,6 +24,7 @@ module JunkiezMoreSupplements {
 		DaysFresh = 2,
 		DaysTotallyRotten = 4,
 		ReplaceOnDeplete = WaterBottleEmpty,
+		ReplaceOnUse = WaterBottleEmpty,
 		CustomEatSound = DrinkingFromBottlePlastic,
 		StaticModel = WaterBottle,
 		WorldStaticModel = WaterBottleFull,
