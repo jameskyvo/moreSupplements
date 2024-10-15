@@ -48,5 +48,27 @@ module JunkiezMoreSupplements {
 		ThirstChange = 50,
 	}
 	
+	item JunkiezPreworkout
+	{
+		DisplayName = Preworkout Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JunkiezPreworkout,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = JunkiezProteinShake:5,
+		Packaged = TRUE,
+		HungerChange = -20,
+		Calories = 440,
+		Carbohydrates = 20,
+		Lipids = 0,
+		Proteins = 20,
+		FatigueChange = -70,
+		EnduranceChange = 40,
+		StressChange = 60,
+		ThirstChange = 50,
+		UnhappyChange = 20,
+	}
+	
 }
 
