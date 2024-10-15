@@ -6,6 +6,6 @@ module Base {
 		ResultItem:JunkiezMoreSupplements.JunkiezProteinShake,
 		Name:Prepare Protein Shake,
 		CanAddSpicesEmpty:true,
-		AddIngredientSound:AddItemInBeverage,
+		AddIngredientSound:ShakeAddIngredient,
 	}
 }
