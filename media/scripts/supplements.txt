@@ -21,6 +21,8 @@ module JunkiezMoreSupplements {
 		Lipids = 12,
 		Proteins = 120,
 		ThirstChange = -20,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
 		ReplaceOnDeplete = WaterBottleEmpty,
 		CustomEatSound = DrinkingFromBottlePlastic,
 		StaticModel = WaterBottle,
