@@ -46,7 +46,7 @@ module JunkiezMoreSupplements {
 		Calories = 2440,
 		Carbohydrates = 48,
 		Lipids = 120,
-		Proteins = 480,
+		Proteins = 580,
 		UnhappyChange = 20,
 		ThirstChange = 50,
 	}
@@ -70,6 +70,44 @@ module JunkiezMoreSupplements {
 		EnduranceChange = 40,
 		StressChange = 60,
 		ThirstChange = 50,
+		UnhappyChange = 20,
+	}
+	
+	item JunkiezMassGainer
+	{
+		DisplayName = Mass Gainer Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = JunkiezMassGainer,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = JunkiezProteinShake:5,
+		Packaged = TRUE,
+		HungerChange = -60,
+		Calories = 40000,
+		Carbohydrates = 1000,
+		Lipids = 100,
+		Proteins = 200,
+		ThirstChange = 40,
+		UnhappyChange = 20,
+	}
+	
+	item JunkiezFatBurner
+	{
+		DisplayName = Fat Burner Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = JunkiezFatBurner,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = JunkiezProteinShake:5,
+		Packaged = TRUE,
+		HungerChange = -25,
+		Calories = -8000,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		ThirstChange = 20,
 		UnhappyChange = 20,
 	}
 	
