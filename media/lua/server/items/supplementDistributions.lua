@@ -84,3 +84,12 @@ table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, "JunkiezMo
 table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, 2);
 table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, "JunkiezMoreSupplements.JunkiezEnergyDrink");
 table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, 1);
+
+-- ["Protein Bar"]
+
+table.insert(ProceduralDistributions["list"]["ClassroomDesk"].items, "JunkiezMoreSupplements.JunkiezProteinBar");
+table.insert(ProceduralDistributions["list"]["ClassroomDesk"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, "JunkiezMoreSupplements.JunkiezProteinBar");
+table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, 3);
+table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, "JunkiezMoreSupplements.JunkiezProteinBar");
+table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, 0.5);

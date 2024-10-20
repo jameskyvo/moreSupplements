@@ -138,5 +138,23 @@ module JunkiezMoreSupplements {
 		StaticModel = PopCanDiet,
 		Tags = HasMetal,
 	}
+	
+	item JunkiezProteinBar
+	{
+		DisplayName = Protein bar,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.2,
+		Icon = JunkiezProteinBar,
+		EvolvedRecipe = Cake:20;PieSweet:20;Bread:10;ConeIcecream:5,
+		FoodType = NoExplicit,
+		Packaged = TRUE,
+		HungerChange = -20,
+		Calories = 850,
+		Carbohydrates = 110,
+		Lipids = 66,
+		Proteins = 100,
+		WorldStaticModel = Chocolate,
+	}
 }
 
