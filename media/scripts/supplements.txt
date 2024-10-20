@@ -111,5 +111,32 @@ module JunkiezMoreSupplements {
 		UnhappyChange = 20,
 	}
 	
+	item JunkiezEnergyDrink
+	{
+		DisplayName = Energy Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = JunkiezEnergyDrink,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = PopEmpty,
+		ThirstChange = -10,
+		UnhappyChange = -10,
+		FatigueChange = -20,
+		EnduranceChange = 20,
+		StressChange = 10,
+		Calories = 140,
+		Carbohydrates = 39,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = PopCanDiet,
+		Tags = HasMetal,
+	}
 }
 
