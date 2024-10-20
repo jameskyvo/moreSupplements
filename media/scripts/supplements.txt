@@ -6,14 +6,14 @@ module JunkiezMoreSupplements {
         and can appear anywhere in the file, even in the
         middle of a { block }
     **/
-	item JunkiezProteinShake
+	item JunkiezShake
 	{
 		DisplayName = Protein Shake,
 		DisplayCategory = Food,
 		Type = Food,
 		Weight = 0.8,
 		CustomContextMenu = Drink,
-		Icon = JunkiezProteinShake,
+		Icon = JunkiezShake,
 		CantBeFrozen = TRUE,
 		HungerChange = -15,
 		Calories = 250,
@@ -40,7 +40,7 @@ module JunkiezMoreSupplements {
 		Weight = 1.0,
 		Icon = JunkiezProteinPowder,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezProteinShake:5,
+		EvolvedRecipe = JunkiezShake:5,
 		Packaged = TRUE,
 		HungerChange = -40,
 		Calories = 2440,
@@ -59,7 +59,7 @@ module JunkiezMoreSupplements {
 		Weight = 0.5,
 		Icon = JunkiezPreworkout,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezProteinShake:5,
+		EvolvedRecipe = JunkiezShake:5,
 		Packaged = TRUE,
 		HungerChange = -20,
 		Calories = 440,
@@ -81,7 +81,7 @@ module JunkiezMoreSupplements {
 		Weight = 2,
 		Icon = JunkiezMassGainer,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezProteinShake:5,
+		EvolvedRecipe = JunkiezShake:5,
 		Packaged = TRUE,
 		HungerChange = -60,
 		Calories = 40000,
@@ -100,7 +100,7 @@ module JunkiezMoreSupplements {
 		Weight = 2,
 		Icon = JunkiezFatBurner,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezProteinShake:5,
+		EvolvedRecipe = JunkiezShake:5,
 		Packaged = TRUE,
 		HungerChange = -25,
 		Calories = -8000,

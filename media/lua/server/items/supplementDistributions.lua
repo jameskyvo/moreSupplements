@@ -14,15 +14,15 @@ table.insert(ProceduralDistributions["list"]["KitchenCannedFood"].items, 1);
 
 
 -- ["Protein Shake"]
-table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, "JunkiezMoreSupplements.JunkiezProteinShake");
+table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, "JunkiezMoreSupplements.JunkiezShake");
 table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, 2);
-table.insert(ProceduralDistributions["list"]["FridgeBreakRoom"].items, "JunkiezMoreSupplements.JunkiezProteinShake");
+table.insert(ProceduralDistributions["list"]["FridgeBreakRoom"].items, "JunkiezMoreSupplements.JunkiezShake");
 table.insert(ProceduralDistributions["list"]["FridgeBreakRoom"].items, 2);
-table.insert(ProceduralDistributions["list"]["FridgeSnacks"].items, "JunkiezMoreSupplements.JunkiezProteinShake");
+table.insert(ProceduralDistributions["list"]["FridgeSnacks"].items, "JunkiezMoreSupplements.JunkiezShake");
 table.insert(ProceduralDistributions["list"]["FridgeSnacks"].items, 1);
-table.insert(ProceduralDistributions["list"]["FridgeWater"].items, "JunkiezMoreSupplements.JunkiezProteinShake");
+table.insert(ProceduralDistributions["list"]["FridgeWater"].items, "JunkiezMoreSupplements.JunkiezShake");
 table.insert(ProceduralDistributions["list"]["FridgeWater"].items, 1);
-table.insert(ProceduralDistributions["list"]["GymLockers"].items, "JunkiezMoreSupplements.JunkiezProteinShake");
+table.insert(ProceduralDistributions["list"]["GymLockers"].items, "JunkiezMoreSupplements.JunkiezShake");
 table.insert(ProceduralDistributions["list"]["GymLockers"].items, 1);
 
 -- ["Preworkout"]

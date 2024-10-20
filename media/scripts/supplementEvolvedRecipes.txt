@@ -1,10 +1,10 @@
 module Base {
-	evolvedrecipe JunkiezProteinShake
+	evolvedrecipe JunkiezShake
 	{
 		BaseItem:WaterBottleFull,
 		MaxItems:4,
-		ResultItem:JunkiezMoreSupplements.JunkiezProteinShake,
-		Name:Prepare Protein Shake,
+		ResultItem:JunkiezMoreSupplements.JunkiezShake,
+		Name:Prepare Shake,
 		CanAddSpicesEmpty:true,
 		AddIngredientSound:ShakeAddIngredient,
 	}
