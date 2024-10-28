@@ -8,4 +8,14 @@ module Base {
 		CanAddSpicesEmpty:true,
 		AddIngredientSound:ShakeAddIngredient,
 	}
+	
+	evolvedrecipe JunkiezBlendedShake
+	{
+		BaseItem:JunkiezMoreSupplements.JunkiezBlenderWaterFull,
+		MaxItems:4,
+		ResultItem:JunkiezMoreSupplements.JunkiezBlendedShake,
+		Name:Blend Shake,
+		CanAddSpicesEmpty:true,
+		AddIngredientSound:ShakeAddIngredient,
+	}
 }

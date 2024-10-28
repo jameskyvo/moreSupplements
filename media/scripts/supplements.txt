@@ -32,6 +32,32 @@ module JunkiezMoreSupplements {
 		UseWhileEquipped = FALSE,
 	}
 	
+	item JunkiezBlendedShake
+	{
+		DisplayName = Protein Shake,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CustomContextMenu = Drink,
+		Icon = JunkiezBlendedShake,
+		CantBeFrozen = TRUE,
+		HungerChange = -10,
+		Calories = 250,
+		Carbohydrates = 18,
+		Lipids = 12,
+		Proteins = 120,
+		ThirstChange = -20,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		ReplaceOnDeplete = JunkiezBlenderBottleEmpty,
+		ReplaceOnUse = JunkiezBlenderBottleEmpty,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		StaticModel = WaterBottle,
+		WorldStaticModel = WaterBottleFull,
+		UseDelta = 0.1,
+		UseWhileEquipped = FALSE,
+	}
+	
 	item JunkiezProteinPowder
 	{
 		DisplayName = Protein Powder,
@@ -40,7 +66,7 @@ module JunkiezMoreSupplements {
 		Weight = 1.0,
 		Icon = JunkiezProteinPowder,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = TRUE,
 		HungerChange = -40,
 		Calories = 2440,
@@ -59,7 +85,7 @@ module JunkiezMoreSupplements {
 		Weight = 0.5,
 		Icon = JunkiezPreworkout,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = TRUE,
 		HungerChange = -20,
 		Calories = 440,
@@ -81,7 +107,7 @@ module JunkiezMoreSupplements {
 		Weight = 2,
 		Icon = JunkiezMassGainer,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = TRUE,
 		HungerChange = -60,
 		Calories = 40000,
@@ -100,7 +126,7 @@ module JunkiezMoreSupplements {
 		Weight = 2,
 		Icon = JunkiezFatBurner,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = TRUE,
 		HungerChange = -25,
 		Calories = -8000,
@@ -155,6 +181,39 @@ module JunkiezMoreSupplements {
 		Lipids = 66,
 		Proteins = 100,
 		WorldStaticModel = Chocolate,
+	}
+	
+	item JunkiezBlenderBottleEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Blender Bottle,
+		ReplaceOnUseOn	=	WaterSource-JunkiezBlenderWaterFull,
+		Icon	=	JunkiezBlenderBottleEmpty,
+		ToolTip = Tooltip_item_OnlyPurifyMicrowave,
+	}
+	
+	item JunkiezBlenderWaterFull
+	{
+		DisplayName = Blender Water Bottle,
+		DisplayCategory = Water,
+		Type = Drainable,
+		Weight = 0.6,
+		Icon = JunkiezBlenderWaterFull,
+		CanStoreWater = TRUE,
+		FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound = GetWaterFromTapPlasticMedium,
+		IsWaterSource = TRUE,
+		ReplaceOnDeplete = JunkiezBlenderBottleEmpty,
+		ReplaceOnUseOn = WaterSource-JunkiezBlenderWaterFull,
+		UseDelta = 0.1,
+		UseWhileEquipped = FALSE,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		StaticModel = WaterBottle,
+		WorldStaticModel = WaterBottleFull,
+		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
 	}
 }
 
