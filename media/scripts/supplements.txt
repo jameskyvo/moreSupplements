@@ -34,7 +34,7 @@ module JunkiezMoreSupplements {
 	
 	item JunkiezBlendedShake
 	{
-		DisplayName = Protein Shake,
+		DisplayName = Blended Protein Shake,
 		DisplayCategory = Food,
 		Type = Food,
 		Weight = 0.8,
@@ -57,7 +57,7 @@ module JunkiezMoreSupplements {
 		UseDelta = 0.1,
 		UseWhileEquipped = FALSE,
 	}
-	
+		
 	item JunkiezProteinPowder
 	{
 		DisplayName = Protein Powder,

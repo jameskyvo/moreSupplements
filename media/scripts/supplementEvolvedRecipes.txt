@@ -8,7 +8,6 @@ module Base {
 		CanAddSpicesEmpty:true,
 		AddIngredientSound:ShakeAddIngredient,
 	}
-	
 	evolvedrecipe JunkiezBlendedShake
 	{
 		BaseItem:JunkiezMoreSupplements.JunkiezBlenderWaterFull,

@@ -1,4 +1,4 @@
 ContextMenu_EN = {
     ContextMenu_EvolvedRecipe_JunkiezShake = "Shake",
-	Mass Gainer Powder Shake = "Mass Gainer Shake",
+	ContextMenu_EvolvedRecipe_JunkiezBlendedShake = "Shake",
 } 
