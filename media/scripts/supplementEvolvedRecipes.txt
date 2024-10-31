@@ -10,7 +10,7 @@ module Base {
 	}
 	evolvedrecipe JunkiezBlendedShake
 	{
-		BaseItem:JunkiezMoreSupplements.JunkiezBlenderWaterFull,
+		BaseItem:JunkiezBlenderWaterFull,
 		MaxItems:4,
 		ResultItem:JunkiezMoreSupplements.JunkiezBlendedShake,
 		Name:Blend Shake,
