@@ -127,7 +127,7 @@ module JunkiezMoreSupplements {
 		Icon = JunkiezFatBurner,
 		CantBeFrozen = TRUE,
 		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
-		Packaged = TRUE,
+		Packaged = FALSE,
 		HungerChange = -25,
 		Calories = -8000,
 		Carbohydrates = 0,
