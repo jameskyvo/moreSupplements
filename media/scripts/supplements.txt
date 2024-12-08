@@ -75,6 +75,7 @@ module JunkiezMoreSupplements {
 		Proteins = 580,
 		UnhappyChange = 20,
 		ThirstChange = 50,
+		WorldStaticModel = JunkiezProteinPowder,
 	}
 	
 	item JunkiezPreworkout
@@ -97,6 +98,7 @@ module JunkiezMoreSupplements {
 		StressChange = 60,
 		ThirstChange = 50,
 		UnhappyChange = 20,
+		WorldStaticModel = JunkiezPreworkoutPowder,
 	}
 	
 	item JunkiezMassGainer
@@ -116,6 +118,7 @@ module JunkiezMoreSupplements {
 		Proteins = 200,
 		ThirstChange = 40,
 		UnhappyChange = 20,
+		WorldStaticModel = JunkiezMassPowder,
 	}
 	
 	item JunkiezFatBurner
@@ -135,6 +138,7 @@ module JunkiezMoreSupplements {
 		Proteins = 0,
 		ThirstChange = 20,
 		UnhappyChange = 20,
+		WorldStaticModel = JunkiezFatBurnerPowder,
 	}
 	
 	item JunkiezEnergyDrink
@@ -161,7 +165,8 @@ module JunkiezMoreSupplements {
 		Proteins = 0,
 		CustomContextMenu = Drink,
 		CustomEatSound = DrinkingFromCan,
-		StaticModel = PopCanDiet,
+		StaticModel = JunkiezEnergyDrink,
+		WorldStaticModel = JunkiezEnergyDrink,
 		Tags = HasMetal,
 	}
 	
@@ -180,7 +185,7 @@ module JunkiezMoreSupplements {
 		Carbohydrates = 110,
 		Lipids = 66,
 		Proteins = 100,
-		WorldStaticModel = Chocolate,
+		WorldStaticModel = JunkiezProteinBar,
 	}
 	
 	item JunkiezBlenderBottleEmpty

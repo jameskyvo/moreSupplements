@@ -1,0 +1,45 @@
+module Base
+{
+	model JunkiezEnergyDrink
+	{
+		mesh = PopCanDiet,
+		texture	= WorldItems/JunkiezEnergyDrink,
+		scale = 1.15,
+    }
+	model JunkiezProteinPowder
+	{
+		mesh = WorldItems/JunkiezProteinPowder,
+		texture	= WorldItems/JunkiezProteinPowder,
+		scale = 0.46875,
+    }
+	model JunkiezPreworkoutPowder
+	{
+		mesh = WorldItems/JunkiezProteinPowder,
+		texture	= WorldItems/JunkiezPreWorkoutPowder,
+		scale = 0.625,
+	}
+	model JunkiezFatBurnerPowder
+	{
+		mesh = WorldItems/JunkiezProteinPowder,
+		texture	= WorldItems/JunkiezFatBurnerPowder,
+		scale = 0.40625,
+	}
+	model JunkiezProteinPowder
+	{
+		mesh = WorldItems/JunkiezProteinPowder,
+		texture	= WorldItems/JunkiezProteinPowder,
+		scale = 0.625,
+    }
+	model JunkiezMassPowder
+	{
+		mesh = WorldItems/JunkiezMassPowder,
+		texture	= WorldItems/JunkiezMassPowder,
+		scale = 0.0225,
+    }
+	model JunkiezProteinBar
+	{
+		mesh = WorldItems/Chocolate,
+		texture	= WorldItems/JunkiezProteinBar,
+		scale = 0.45,
+    }
+}
