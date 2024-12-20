@@ -52,8 +52,8 @@ module JunkiezMoreSupplements {
 		ReplaceOnDeplete = JunkiezBlenderBottleEmpty,
 		ReplaceOnUse = JunkiezBlenderBottleEmpty,
 		CustomEatSound = DrinkingFromBottlePlastic,
-		StaticModel = WaterBottle,
-		WorldStaticModel = WaterBottleFull,
+		StaticModel = JunkiezBlenderBottle,
+		WorldStaticModel = JunkiezBlenderBottle,
 		UseDelta = 0.1,
 		UseWhileEquipped = FALSE,
 	}
@@ -198,6 +198,7 @@ module JunkiezMoreSupplements {
 		ReplaceOnUseOn	=	WaterSource-JunkiezBlenderWaterFull,
 		Icon	=	JunkiezBlenderBottleEmpty,
 		ToolTip = Tooltip_item_OnlyPurifyMicrowave,
+		WorldStaticModel = JunkiezBlenderBottle,
 	}
 }
 

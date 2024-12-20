@@ -42,4 +42,10 @@ module Base
 		texture	= WorldItems/JunkiezProteinBar,
 		scale = 0.45,
     }
+	model JunkiezBlenderBottle
+	{
+		mesh = WorldItems/JunkiezBlenderBottle,
+		texture	= WorldItems/JunkiezBlenderBottle,
+		scale = 0.005625,
+    }
 }
