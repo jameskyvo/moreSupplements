@@ -47,5 +47,9 @@ module Base
 		mesh = WorldItems/JunkiezBlenderBottle,
 		texture	= WorldItems/JunkiezBlenderBottle,
 		scale = 0.005625,
+		attachment world
+		{
+			rotate = 0.0000 0.0000 -180.0000,
+		}
     }
 }
