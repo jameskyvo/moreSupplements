@@ -15,8 +15,8 @@ module Base {
 		UseDelta = 0.1,
 		UseWhileEquipped = FALSE,	
 		CustomEatSound = DrinkingFromBottlePlastic,
-		StaticModel = WaterBottle,
-		WorldStaticModel = WaterBottleFull,
+		StaticModel = JunkiezBlenderBottle,
+		WorldStaticModel = JunkiezBlenderBottle,
 		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
 	}
 }
