@@ -24,12 +24,6 @@ module Base
 		texture	= WorldItems/JunkiezFatBurnerPowder,
 		scale = 0.40625,
 	}
-	model JunkiezProteinPowder
-	{
-		mesh = WorldItems/JunkiezProteinPowder,
-		texture	= WorldItems/JunkiezProteinPowder,
-		scale = 0.625,
-    }
 	model JunkiezMassPowder
 	{
 		mesh = WorldItems/JunkiezMassPowder,
