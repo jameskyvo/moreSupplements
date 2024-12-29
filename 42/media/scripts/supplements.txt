@@ -198,6 +198,13 @@ module JunkiezMoreSupplements {
 		Icon	=	JunkiezBlenderBottleEmpty,
 		ToolTip = Tooltip_item_OnlyPurifyMicrowave,
 		WorldStaticModel = JunkiezBlenderBottle,
+		
+		component FluidContainer
+		{
+			ContainerName = BlenderBottle
+			capacity = 0.8
+			CustomDrinkSound = DrinkingFromBottlePlastic
+		}
 	}
 }
 
