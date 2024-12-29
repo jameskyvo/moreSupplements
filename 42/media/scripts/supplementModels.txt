@@ -43,7 +43,7 @@ module Base
 		scale = 0.005625,
 		attachment world
 		{
-			rotate = 0.0000 0.0000 -180.0000,
+			offset = 0.0000 -0.08 0,
 		}
     }
 }
