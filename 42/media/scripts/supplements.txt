@@ -187,14 +187,13 @@ module JunkiezMoreSupplements {
 		WorldStaticModel = JunkiezProteinBar,
 	}
 	
-	item JunkiezBlenderBottleEmpty
+	item JunkiezBlenderBottle
 	{
 	    DisplayCategory = WaterContainer,
 		Weight	=	0.1,
 		CanStoreWater	=	TRUE,
 		Type	=	Normal,
 		DisplayName	=	Empty Blender Bottle,
-		ReplaceOnUseOn	=	WaterSource-JunkiezBlenderWaterFull,
 		Icon	=	JunkiezBlenderBottleEmpty,
 		ToolTip = Tooltip_item_OnlyPurifyMicrowave,
 		WorldStaticModel = JunkiezBlenderBottle,
