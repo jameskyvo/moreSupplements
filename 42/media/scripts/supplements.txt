@@ -148,7 +148,6 @@ module JunkiezMoreSupplements {
 		Type = Food,
 		Weight = 0.3,
 		Icon = JunkiezEnergyDrink,
-		EvolvedRecipe = Beverage:4;Beverage2:4,
 		FoodType = SoftDrink,
 		CantBeFrozen = TRUE,
 		EatType = popcan,
