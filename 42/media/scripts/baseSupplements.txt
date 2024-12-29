@@ -1,0 +1,22 @@
+module Base {
+	item JunkiezBlenderWaterFull
+	{
+		DisplayName = Blender Water Bottle,
+		DisplayCategory = Water,
+		Type = Drainable,
+		Weight = 0.6,
+		Icon = JunkiezBlenderWaterFull,
+		CanStoreWater = TRUE,
+		FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound = GetWaterFromTapPlasticMedium,
+		IsWaterSource = TRUE,
+		ReplaceOnDeplete = JunkiezMoreSupplements.JunkiezBlenderBottleEmpty,
+		ReplaceOnUseOn = WaterSource-JunkiezBlenderWaterFull,
+		UseDelta = 0.1,
+		UseWhileEquipped = FALSE,	
+		CustomEatSound = DrinkingFromBottlePlastic,
+		StaticModel = JunkiezBlenderBottle,
+		WorldStaticModel = JunkiezBlenderBottle,
+		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
+	}
+}

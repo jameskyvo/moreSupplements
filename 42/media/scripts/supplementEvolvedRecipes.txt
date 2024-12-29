@@ -1,0 +1,20 @@
+module Base {
+	evolvedrecipe JunkiezShake
+	{
+		BaseItem:WaterBottleFull,
+		MaxItems:4,
+		ResultItem:JunkiezMoreSupplements.JunkiezShake,
+		Name:Prepare Shake,
+		CanAddSpicesEmpty:true,
+		AddIngredientSound:ShakeAddIngredient,
+	}
+	evolvedrecipe JunkiezBlendedShake
+	{
+		BaseItem:JunkiezBlenderWaterFull,
+		MaxItems:4,
+		ResultItem:JunkiezMoreSupplements.JunkiezBlendedShake,
+		Name:Blend Shake,
+		CanAddSpicesEmpty:true,
+		AddIngredientSound:ShakeAddIngredient,
+	}
+}

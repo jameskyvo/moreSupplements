@@ -1,0 +1,204 @@
+module JunkiezMoreSupplements {
+    imports {
+        Base
+    }
+    /** Comments can be multiline like this
+        and can appear anywhere in the file, even in the
+        middle of a { block }
+    **/
+	item JunkiezShake
+	{
+		DisplayName = Protein Shake,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CustomContextMenu = Drink,
+		Icon = JunkiezShake,
+		CantBeFrozen = TRUE,
+		HungerChange = -15,
+		Calories = 250,
+		Carbohydrates = 18,
+		Lipids = 12,
+		Proteins = 120,
+		ThirstChange = -20,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		ReplaceOnDeplete = WaterBottleEmpty,
+		ReplaceOnUse = WaterBottleEmpty,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		StaticModel = WaterBottle,
+		WorldStaticModel = WaterBottleFull,
+		UseDelta = 0.1,
+		UseWhileEquipped = FALSE,
+	}
+	
+	item JunkiezBlendedShake
+	{
+		DisplayName = Blended Protein Shake,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.8,
+		CustomContextMenu = Drink,
+		Icon = JunkiezBlendedShake,
+		CantBeFrozen = TRUE,
+		HungerChange = -10,
+		Calories = 250,
+		Carbohydrates = 18,
+		Lipids = 12,
+		Proteins = 120,
+		ThirstChange = -20,
+		DaysFresh = 2,
+		DaysTotallyRotten = 4,
+		ReplaceOnDeplete = JunkiezBlenderBottleEmpty,
+		ReplaceOnUse = JunkiezBlenderBottleEmpty,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		StaticModel = JunkiezBlenderBottle,
+		WorldStaticModel = JunkiezBlenderBottle,
+		UseDelta = 0.1,
+		UseWhileEquipped = FALSE,
+	}
+		
+	item JunkiezProteinPowder
+	{
+		DisplayName = Protein Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 1.0,
+		Icon = JunkiezProteinPowder,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
+		Packaged = TRUE,
+		HungerChange = -40,
+		Calories = 2440,
+		Carbohydrates = 48,
+		Lipids = 120,
+		Proteins = 580,
+		UnhappyChange = 20,
+		ThirstChange = 50,
+		WorldStaticModel = JunkiezProteinPowder,
+	}
+	
+	item JunkiezPreworkout
+	{
+		DisplayName = Preworkout Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JunkiezPreworkout,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
+		Packaged = TRUE,
+		HungerChange = -20,
+		Calories = 440,
+		Carbohydrates = 20,
+		Lipids = 0,
+		Proteins = 20,
+		FatigueChange = -70,
+		EnduranceChange = 40,
+		StressChange = 60,
+		ThirstChange = 50,
+		UnhappyChange = 20,
+		WorldStaticModel = JunkiezPreworkoutPowder,
+	}
+	
+	item JunkiezMassGainer
+	{
+		DisplayName = Mass Gainer Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = JunkiezMassGainer,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
+		Packaged = TRUE,
+		HungerChange = -60,
+		Calories = 40000,
+		Carbohydrates = 1000,
+		Lipids = 100,
+		Proteins = 200,
+		ThirstChange = 40,
+		UnhappyChange = 20,
+		WorldStaticModel = JunkiezMassPowder,
+	}
+	
+	item JunkiezFatBurner
+	{
+		DisplayName = Fat Burner Powder,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 2,
+		Icon = JunkiezFatBurner,
+		CantBeFrozen = TRUE,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
+		Packaged = FALSE,
+		HungerChange = -25,
+		Calories = -8000,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		ThirstChange = 20,
+		UnhappyChange = 20,
+		WorldStaticModel = JunkiezFatBurnerPowder,
+	}
+	
+	item JunkiezEnergyDrink
+	{
+		DisplayName = Energy Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = JunkiezEnergyDrink,
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+		ReplaceOnUse = PopEmpty,
+		ThirstChange = -10,
+		UnhappyChange = -10,
+		FatigueChange = -20,
+		EnduranceChange = 20,
+		StressChange = 10,
+		Calories = 140,
+		Carbohydrates = 39,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		StaticModel = JunkiezEnergyDrink,
+		WorldStaticModel = JunkiezEnergyDrink,
+		Tags = HasMetal,
+	}
+	
+	item JunkiezProteinBar
+	{
+		DisplayName = Protein bar,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.2,
+		Icon = JunkiezProteinBar,
+		EvolvedRecipe = Cake:20;PieSweet:20;Bread:10;ConeIcecream:5,
+		FoodType = NoExplicit,
+		Packaged = TRUE,
+		HungerChange = -20,
+		Calories = 850,
+		Carbohydrates = 110,
+		Lipids = 66,
+		Proteins = 100,
+		WorldStaticModel = JunkiezProteinBar,
+	}
+	
+	item JunkiezBlenderBottleEmpty
+	{
+	    DisplayCategory = WaterContainer,
+		Weight	=	0.1,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Blender Bottle,
+		ReplaceOnUseOn	=	WaterSource-JunkiezBlenderWaterFull,
+		Icon	=	JunkiezBlenderBottleEmpty,
+		ToolTip = Tooltip_item_OnlyPurifyMicrowave,
+		WorldStaticModel = JunkiezBlenderBottle,
+	}
+}
+
