@@ -2,10 +2,6 @@ module JunkiezMoreSupplements {
     imports {
         Base
     }
-    /** Comments can be multiline like this
-        and can appear anywhere in the file, even in the
-        middle of a { block }
-    **/
 	item JunkiezShake
 	{
 		DisplayName = Protein Shake,
@@ -76,6 +72,7 @@ module JunkiezMoreSupplements {
 		UnhappyChange = 20,
 		ThirstChange = 50,
 		WorldStaticModel = JunkiezProteinPowder,
+		Tags = Supplement,
 	}
 	
 	item JunkiezPreworkout
@@ -99,6 +96,7 @@ module JunkiezMoreSupplements {
 		ThirstChange = 50,
 		UnhappyChange = 20,
 		WorldStaticModel = JunkiezPreworkoutPowder,
+		Tags = Supplement,
 	}
 	
 	item JunkiezMassGainer
@@ -119,6 +117,7 @@ module JunkiezMoreSupplements {
 		ThirstChange = 40,
 		UnhappyChange = 20,
 		WorldStaticModel = JunkiezMassPowder,
+		Tags = Supplement,
 	}
 	
 	item JunkiezFatBurner
@@ -139,6 +138,7 @@ module JunkiezMoreSupplements {
 		ThirstChange = 20,
 		UnhappyChange = 20,
 		WorldStaticModel = JunkiezFatBurnerPowder,
+		Tags = Supplement,
 	}
 	
 	item JunkiezEnergyDrink
@@ -185,6 +185,7 @@ module JunkiezMoreSupplements {
 		Lipids = 66,
 		Proteins = 100,
 		WorldStaticModel = JunkiezProteinBar,
+		Tags = Supplement,
 	}
 	
 	item JunkiezBlenderBottle
