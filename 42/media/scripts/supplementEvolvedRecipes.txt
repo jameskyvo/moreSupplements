@@ -1,7 +1,7 @@
 module Base {
 	evolvedrecipe JunkiezShake
 	{
-		BaseItem:WaterBottleFull,
+		BaseItem:WaterBottle,
 		MaxItems:4,
 		ResultItem:JunkiezMoreSupplements.JunkiezShake,
 		Name:Prepare Shake,
@@ -10,11 +10,31 @@ module Base {
 	}
 	evolvedrecipe JunkiezBlendedShake
 	{
-		BaseItem:JunkiezBlenderWaterFull,
+		BaseItem:JunkiezBlenderBottle,
+		Fluid.Water=0.6,
 		MaxItems:4,
 		ResultItem:JunkiezMoreSupplements.JunkiezBlendedShake,
 		Name:Blend Shake,
 		CanAddSpicesEmpty:true,
 		AddIngredientSound:ShakeAddIngredient,
+	}
+	
+	craftRecipe JunkiezBlendedShake
+	{
+        timedAction = MixingBowl,
+		Time = 50,
+		OnCreate = Recipe.OnCreate.AddBaseIngredientToCookingVessel,
+		Tags = AnySurfaceCraft;Cooking,
+		category = Cooking,
+		inputs
+		{
+			item 1 [JunkiezMoreSupplements.JunkiezBlenderBottle] flags[InheritCondition],
+			item 1 tags[Supplement],
+			fluid 0.6 [Water],
+		}
+		outputs
+		{
+			item 1 Base.WaterSaucepanPasta,
+		}
 	}
 }
