@@ -2,6 +2,7 @@ module Base {
 	evolvedrecipe JunkiezShake
 	{
 		BaseItem:WaterBottle,
+		MinimumWater: 0.5,
 		MaxItems:4,
 		ResultItem:JunkiezMoreSupplements.JunkiezShake,
 		Name:Prepare Shake,
@@ -11,7 +12,7 @@ module Base {
 	evolvedrecipe JunkiezBlendedShake
 	{
 		BaseItem:JunkiezBlenderBottle,
-		Fluid.Water=0.6,
+		MinimumWater: 0.5,
 		MaxItems:4,
 		ResultItem:JunkiezMoreSupplements.JunkiezBlendedShake,
 		Name:Blend Shake,
