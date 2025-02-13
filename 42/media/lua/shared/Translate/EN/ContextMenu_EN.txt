@@ -1,4 +1,5 @@
 ContextMenu_EN = {
     ContextMenu_EvolvedRecipe_JunkiezShake = "Shake",
 	ContextMenu_EvolvedRecipe_JunkiezBlendedShake = "Shake",
+    ContextMenu_EvolvedRecipe_JunkiezReusedShake = "Shake",
 } 
