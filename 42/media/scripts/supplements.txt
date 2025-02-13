@@ -206,5 +206,32 @@ module JunkiezMoreSupplements {
 			CustomDrinkSound = DrinkingFromBottlePlastic
 		}
 	}
+
+	item JunkiezWaterBottle
+	{
+		DisplayName = Water Bottle,
+		DisplayCategory = Water,
+		Type = Normal,
+		Weight = 0.1,
+		Icon = WaterBottle,
+		IconColorMask = WaterBottle_Mask2,
+		IconFluidMask = WaterBottle_Mask,
+		CookingSound = BoilingFood,
+		CustomEatSound = DrinkingFromBottlePlastic,
+		FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+		FillFromLakeSound = GetWaterFromLakeBottle,
+		FillFromTapSound = GetWaterFromTapPlasticMedium,
+		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
+		StaticModel = WaterBottle,
+		WorldStaticModel = WaterBottleFull,
+        	Tags = CookableMicrowave,
+		/* OnCreate	= SpecialLootSpawns.OnCreateWaterBottle, */
+
+        	component FluidContainer
+        	{
+            		ContainerName   = BottlePlastic,
+            		capacity        = 1.0,
+        	}
+	}	
 }
 
