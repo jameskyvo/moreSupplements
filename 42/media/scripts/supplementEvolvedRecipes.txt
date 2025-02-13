@@ -9,6 +9,16 @@ module Base {
 		CanAddSpicesEmpty:true,
 		AddIngredientSound:ShakeAddIngredient,
 	}
+	evolvedrecipe JunkiezReusedShake
+	{
+		BaseItem:JunkiezMoreSupplements.JunkiezWaterBottle,
+		MinimumWater: 0.5,
+		MaxItems:4,
+		ResultItem:JunkiezMoreSupplements.JunkiezShake,
+		Name:Prepare Shake,
+		CanAddSpicesEmpty:true,
+		AddIngredientSound:ShakeAddIngredient,
+	}
 	evolvedrecipe JunkiezBlendedShake
 	{
 		BaseItem:JunkiezBlenderBottle,
@@ -20,5 +30,4 @@ module Base {
 		AddIngredientSound:ShakeAddIngredient,
 		Template:Salad,
 	}
-	
 }
