@@ -1,6 +1,6 @@
 -- Gamejunkiez: getEvolvedRecipe():add and DoParam do NOT work as of b42.3! This script is currently not working properly.Template:Salad in supplementevolvedrecipes is a workaround until fixed.
 
--- Sets a vanilla ingredient as a valid shake crafting item for the blender bottle shake.
+--[[ Sets a vanilla ingredient as a valid shake crafting item for the blender bottle shake.
 function SetBlenderShakeIngredient(itemName, hungerValue)
 	local item = ScriptManager.instance:getItem("Base." .. itemName)
 	if item then
@@ -29,4 +29,4 @@ end
 
 -- Canned Foods
 SetBlenderShakeIngredient("Apple",4)
-SetBlenderShakeIngredient("CannedCarrotsOpen",4)
+SetBlenderShakeIngredient("CannedCarrotsOpen",4) ]]
