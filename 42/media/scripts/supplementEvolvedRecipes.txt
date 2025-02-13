@@ -11,7 +11,7 @@ module Base {
 	}
 	evolvedrecipe JunkiezReusedShake
 	{
-		BaseItem:JunkiezMoreSupplements.JunkiezWaterBottle,
+		BaseItem:JunkiezWaterBottle,
 		MinimumWater: 0.5,
 		MaxItems:4,
 		ResultItem:JunkiezMoreSupplements.JunkiezShake,
