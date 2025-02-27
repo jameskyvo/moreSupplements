@@ -62,7 +62,7 @@ module JunkiezMoreSupplements {
 		Weight = 1.0,
 		Icon = JunkiezProteinPowder,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;JunkiezReusedShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = TRUE,
 		HungerChange = -40,
 		Calories = 2440,
@@ -83,7 +83,7 @@ module JunkiezMoreSupplements {
 		Weight = 0.5,
 		Icon = JunkiezPreworkout,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;JunkiezReusedShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = TRUE,
 		HungerChange = -20,
 		Calories = 440,
@@ -107,7 +107,7 @@ module JunkiezMoreSupplements {
 		Weight = 2,
 		Icon = JunkiezMassGainer,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;JunkiezReusedShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = TRUE,
 		HungerChange = -60,
 		Calories = 40000,
@@ -128,7 +128,7 @@ module JunkiezMoreSupplements {
 		Weight = 2,
 		Icon = JunkiezFatBurner,
 		CantBeFrozen = TRUE,
-		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5;JunkiezReusedShake:5,
+		EvolvedRecipe = JunkiezShake:5;JunkiezBlendedShake:5,
 		Packaged = FALSE,
 		HungerChange = -25,
 		Calories = -8000,
@@ -206,31 +206,5 @@ module JunkiezMoreSupplements {
 			CustomDrinkSound = DrinkingFromBottlePlastic
 		}
 	}
-
-	item JunkiezWaterBottle
-	{
-		DisplayName = Water Bottle,
-		DisplayCategory = Water,
-		Type = Normal,
-		Weight = 0.1,
-		Icon = WaterBottle,
-		IconColorMask = WaterBottle_Mask2,
-		IconFluidMask = WaterBottle_Mask,
-		CookingSound = BoilingFood,
-		CustomEatSound = DrinkingFromBottlePlastic,
-		FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
-		FillFromLakeSound = GetWaterFromLakeBottle,
-		FillFromTapSound = GetWaterFromTapPlasticMedium,
-		Tooltip = Tooltip_item_OnlyPurifyMicrowave,
-		StaticModel = WaterBottle,
-		WorldStaticModel = WaterBottleFull,
-        	Tags = CookableMicrowave,
-		/* OnCreate	= SpecialLootSpawns.OnCreateWaterBottle, */
-        	component FluidContainer
-        	{
-            		ContainerName   = BottlePlastic,
-            		capacity        = 1.0,
-        	}
-	}	
 }
 
