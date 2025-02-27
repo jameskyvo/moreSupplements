@@ -16,16 +16,9 @@ This mod adds more workout supplements to Project Zomboid! Unique workout shakes
 | ![Protein Bar](https://i.imgur.com/Iz7y32V.png) | A protein bar that can be found in the world. It is high in protein and can increase strength gains from exercise by up to 50% if your protein content is high enough. |
 | ![Energy Drink](https://i.imgur.com/Xurt7C7.png) | An energy drink for the health-conscious. Drinking this will reduce a significant amount of fatigue and restore endurance. Does not cause anxiety. |
 
-## Planned Features:
-- More fine-tuned spawning  
-- Ability to add supplements to vanilla cooking recipes  
-- Russian translation  
-
 ## Credits:
 Huge thanks to Matogi and Albion from the Project Zomboid Modding Discord. This mod would not have been possible without either of them.  
 ![Thank You](https://media1.giphy.com/media/wRhSi68hscY8xNOlXS/giphy.gif)
-
-[GitHub Repository](https://github.com/jameskyvo/moreSupplements)  
 
 **Workshop ID:** 3348466117  
 **Mod ID:** JunkiezMoreSupplements  
