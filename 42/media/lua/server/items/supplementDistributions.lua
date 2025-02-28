@@ -1,4 +1,5 @@
 require 'Items/ProceduralDistributions'
+require 'Items/SuburbsDistributions'
 
 -- ["Protein Powder"]
 table.insert(ProceduralDistributions["list"]["ArmyStorageMedical"].items, "JunkiezMoreSupplements.JunkiezProteinPowder");
@@ -36,6 +37,11 @@ table.insert(ProceduralDistributions["list"]["FridgeWater"].items, "JunkiezMoreS
 table.insert(ProceduralDistributions["list"]["FridgeWater"].items, 1);
 table.insert(ProceduralDistributions["list"]["GymLockers"].items, "JunkiezMoreSupplements.JunkiezBlendedShake");
 table.insert(ProceduralDistributions["list"]["GymLockers"].items, 3);
+
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, "JunkiezMoreSupplements.JunkiezBlendedShake");
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.005);
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "JunkiezMoreSupplements.JunkiezBlendedShake");
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.005);
 
 -- ["Preworkout"]
 table.insert(ProceduralDistributions["list"]["ArmyStorageMedical"].items, "JunkiezMoreSupplements.JunkiezPreworkout");
@@ -97,6 +103,10 @@ table.insert(ProceduralDistributions["list"]["KitchenBottles"].items, 2);
 table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, "JunkiezMoreSupplements.JunkiezEnergyDrink");
 table.insert(ProceduralDistributions["list"]["FridgeGeneric"].items, 1);
 
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, "JunkiezMoreSupplements.JunkiezEnergyDrink");
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "JunkiezMoreSupplements.JunkiezEnergyDrink");
+table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
 -- ["Protein Bar"]
 
 table.insert(ProceduralDistributions["list"]["ClassroomDesk"].items, "JunkiezMoreSupplements.JunkiezProteinBar");
@@ -105,3 +115,6 @@ table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, "JunkiezM
 table.insert(ProceduralDistributions["list"]["GasStorageCombo"].items, 3);
 table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, "JunkiezMoreSupplements.JunkiezProteinBar");
 table.insert(ProceduralDistributions["list"]["KitchenDryFood"].items, 0.5);
+
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, "JunkiezMoreSupplements.JunkiezProteinBar");
+table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
