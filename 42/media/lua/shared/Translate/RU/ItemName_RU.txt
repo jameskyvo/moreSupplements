@@ -6,6 +6,5 @@ ItemName_RU = {
     ItemName_JunkiezMoreSupplements.JunkiezMassGainer = "Порошок для набора массы",
     ItemName_JunkiezMoreSupplements.JunkiezFatBurner = "Порошок для жирасжигания",
     ItemName_JunkiezMoreSupplements.JunkiezEnergyDrink = "Энергетик",
-    ItemName_JunkiezMoreSupplements.JunkiezProteinBar = "Протеиновый батончик",
-    ItemName_JunkiezMoreSupplements.JunkiezBlenderBottle = "Пустой шейкер",
+    ItemName_JunkiezMoreSupplements.JunkiezProteinBar = "Пустой шейкер",
 }
