@@ -201,9 +201,9 @@ module JunkiezMoreSupplements {
 		
 		component FluidContainer
 		{
-			ContainerName = BlenderBottle
-			capacity = 0.8
-			CustomDrinkSound = DrinkingFromBottlePlastic
+			ContainerName = BlenderBottle,
+			capacity = 0.8,
+			CustomDrinkSound = DrinkingFromBottlePlastic,
 		}
 	}
 }
