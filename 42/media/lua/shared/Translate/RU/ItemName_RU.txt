@@ -1,0 +1,10 @@
+ItemName_RU = {
+    ItemName_JunkiezMoreSupplements.JunkiezShake = "Протеиновый коктель",
+	ItemName_JunkiezMoreSupplements.JunkiezBlendedShake = "Протеиновый шейкер",
+    ItemName_JunkiezMoreSupplements.JunkiezProteinPowder = "Протеиновый порошок",
+    ItemName_JunkiezMoreSupplements.JunkiezPreworkout = "Предтренировочный порошок",
+    ItemName_JunkiezMoreSupplements.JunkiezMassGainer = "Порошок для набора массы",
+    ItemName_JunkiezMoreSupplements.JunkiezFatBurner = "Порошок для жирасжигания",
+    ItemName_JunkiezMoreSupplements.JunkiezEnergyDrink = "Энергетик",
+    ItemName_JunkiezMoreSupplements.JunkiezProteinBar = "Пустой шейкер",
+}
