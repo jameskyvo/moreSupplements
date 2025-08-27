@@ -1,0 +1,4 @@
+ContextMenu_RU = {
+    ContextMenu_EvolvedRecipe_JunkiezShake = Шейк,
+	ContextMenu_EvolvedRecipe_JunkiezBlendedShake = Шейк,
+} 
