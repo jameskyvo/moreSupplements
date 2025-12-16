@@ -4,9 +4,9 @@ module JunkiezMoreSupplements {
     }
 	item JunkiezShake
 	{
-		DisplayName = Protein Shake,
 		DisplayCategory = Food,
-		Type = Food,
+		Tags = junkiezmoresupplements:shake,
+		ItemType = Food,
 		Weight = 0.8,
 		CustomContextMenu = Drink,
 		Icon = JunkiezShake,
@@ -30,9 +30,9 @@ module JunkiezMoreSupplements {
 	
 	item JunkiezBlendedShake
 	{
-		DisplayName = Blended Protein Shake,
 		DisplayCategory = Food,
-		Type = Food,
+		Tags = junkiezmoresupplements:blendedshake,
+		ItemType = Food,
 		Weight = 0.8,
 		CustomContextMenu = Drink,
 		Icon = JunkiezBlendedShake,
@@ -56,9 +56,9 @@ module JunkiezMoreSupplements {
 		
 	item JunkiezProteinPowder
 	{
-		DisplayName = Protein Powder,
 		DisplayCategory = Food,
-		Type = Food,
+		Tags = junkiezmoresupplements:proteinpowder,
+		ItemType = Food,
 		Weight = 1.0,
 		Icon = JunkiezProteinPowder,
 		CantBeFrozen = TRUE,
@@ -77,9 +77,9 @@ module JunkiezMoreSupplements {
 	
 	item JunkiezPreworkout
 	{
-		DisplayName = Preworkout Powder,
 		DisplayCategory = Food,
-		Type = Food,
+		Tags = junkiezmoresupplements:preworkout,
+		ItemType = Food,
 		Weight = 0.5,
 		Icon = JunkiezPreworkout,
 		CantBeFrozen = TRUE,
@@ -101,9 +101,9 @@ module JunkiezMoreSupplements {
 	
 	item JunkiezMassGainer
 	{
-		DisplayName = Mass Gainer Powder,
 		DisplayCategory = Food,
-		Type = Food,
+		Tags = junkiezmoresupplements:massgainer,
+		ItemType = Food,
 		Weight = 2,
 		Icon = JunkiezMassGainer,
 		CantBeFrozen = TRUE,
@@ -122,9 +122,8 @@ module JunkiezMoreSupplements {
 	
 	item JunkiezFatBurner
 	{
-		DisplayName = Fat Burner Powder,
 		DisplayCategory = Food,
-		Type = Food,
+		ItemType = Food,
 		Weight = 2,
 		Icon = JunkiezFatBurner,
 		CantBeFrozen = TRUE,
@@ -143,9 +142,9 @@ module JunkiezMoreSupplements {
 	
 	item JunkiezEnergyDrink
 	{
-		DisplayName = Energy Drink,
 		DisplayCategory = Food,
-		Type = Food,
+		Tags = junkiezmoresupplements:energydrink,
+		ItemType = Food,
 		Weight = 0.3,
 		Icon = JunkiezEnergyDrink,
 		FoodType = SoftDrink,
@@ -171,9 +170,9 @@ module JunkiezMoreSupplements {
 	
 	item JunkiezProteinBar
 	{
-		DisplayName = Protein bar,
 		DisplayCategory = Food,
-		Type = Food,
+		Tags = junkiezmoresupplements:proteinbar,
+		ItemType = Food,
 		Weight = 0.2,
 		Icon = JunkiezProteinBar,
 		EvolvedRecipe = Cake:20;PieSweet:20;Bread:10;ConeIcecream:5,
@@ -191,10 +190,10 @@ module JunkiezMoreSupplements {
 	item JunkiezBlenderBottle
 	{
 	    DisplayCategory = WaterContainer,
+		Tags = junkiezmoresupplements:blenderbottle,
 		Weight	=	0.1,
 		CanStoreWater	=	TRUE,
-		Type	=	Normal,
-		DisplayName	=	Empty Blender Bottle,
+		ItemType	=	Normal,
 		Icon	=	JunkiezBlenderBottleEmpty,
 		ToolTip = Tooltip_item_OnlyPurifyMicrowave,
 		WorldStaticModel = JunkiezBlenderBottle,

@@ -1,0 +1,11 @@
+Itemname_EN = {
+    ItemName_JunkiezMoreSupplements.JunkiezShake = "Shake",
+    ItemName_JunkiezMoreSupplements.JunkiezBlendedShake = "Blended Shake",
+    ItemName_JunkiezMoreSupplements.JunkiezProteinPowder = "Protein Powder",
+    ItemName_JunkiezMoreSupplements.JunkiezPreworkout = "Preworkout Powder",
+    ItemName_JunkiezMoreSupplements.JunkiezMassGainer = "Mass Gainer",
+    ItemName_JunkiezMoreSupplements.JunkiezFatBurner = "Fat Burner",
+    ItemName_JunkiezMoreSupplements.JunkiezEnergyDrink = "Energy Drink",
+    ItemName_JunkiezMoreSupplements.JunkiezProteinBar = "Protein Bar",
+    ItemName_JunkiezMoreSupplements.JunkiezBlenderBottle = "Blender Bottle",
+}
