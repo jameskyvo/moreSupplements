@@ -1,3 +1,0 @@
-Fluids_EN = {
-    Fluid_Container_BlenderBottle = "Blender Bottle",
-}
