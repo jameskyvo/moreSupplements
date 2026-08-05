@@ -1,0 +1,357 @@
+module Base {
+    item Strewberrie {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Apple {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Banana {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Cherry {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item DriedApricots {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Grapefruit {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Grapes {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Lemon {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Lime {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Mango {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Orange {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Peach {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Pear {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Pineapple {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Watermelon {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item WatermelonSliced {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item WatermelonSmashed {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryBlack {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryBlue {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryGeneric1 {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryGeneric2 {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryGeneric3 {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryGeneric4 {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryGeneric5 {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Rosehips {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BeautyBerry {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item HollyBerry {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item WinterBerry {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item CannedFruitCocktailOpen {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item CannedPeachesOpen {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item CannedPineappleOpen {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item CannedFruitBeverageOpen {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Spinach {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Kale {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Avocado {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Carrots {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Cucumber {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item GingerRoot {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item SugarBeet {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Pumpkin {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item PumpkinSliced {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item PumpkinSmashed {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item SweetPotato {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Zucchini {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item CannedMilkOpen {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Yoghurt {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item OatsRaw {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item PeanutButter {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Honey {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Sugar {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item SugarBrown {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item SugarCubes {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item SugarPacket {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item MapleSyrup {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item CocoaPowder {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Peanuts {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item SunflowerSeeds {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item FlaxSeed {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item ChocolateChips {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Egg {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item WildEggs {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item TurkeyEgg {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Bacon {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BaconRashers {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BaconBits {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Ham {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item HamSlice {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Baloney {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BaloneySlice {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Pepperoni {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Salami {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item SalamiSlice {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Sausage {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item MeatPatty {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item MincedMeat {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item ChickenWings {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Chicken {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item ChickenFillet {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item TurkeyLegs {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item TurkeyFillet {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item TurkeyWings {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item MuttonChop {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item PorkChop {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Pork {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Venison {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Beef {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Steak {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item Hotdog_single {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:4,
+    }
+
+    item BerryPoisonIvy {
+        EvolvedRecipe = JunkiezMoreSupplements.JunkiezBlendedShake:5,
+    }
+}

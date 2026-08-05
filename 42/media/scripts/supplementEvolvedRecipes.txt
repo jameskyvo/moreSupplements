@@ -16,6 +16,5 @@ module Base {
         Name               = Blend Shake,
         CanAddSpicesEmpty  = true,
         AddIngredientSound = ShakeAddIngredient,
-        Template           = Salad,
     }
 }
