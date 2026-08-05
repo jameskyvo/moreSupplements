@@ -1,23 +1,21 @@
 module Base {
-	evolvedrecipe JunkiezShake
-	{
-		BaseItem:WaterBottle,
-		MinimumWater: 0.5,
-		MaxItems:4,
-		ResultItem:JunkiezMoreSupplements.JunkiezShake,
-		Name:Prepare Shake,
-		CanAddSpicesEmpty:true,
-		AddIngredientSound:ShakeAddIngredient,
-	}
-	evolvedrecipe JunkiezBlendedShake
-	{
-		BaseItem:JunkiezBlenderBottle,
-		MinimumWater: 0.5,
-		MaxItems:4,
-		ResultItem:JunkiezMoreSupplements.JunkiezBlendedShake,
-		Name:Blend Shake,
-		CanAddSpicesEmpty:true,
-		AddIngredientSound:ShakeAddIngredient,
-		Template:Salad,
-	}
+    evolvedrecipe JunkiezShake {
+        BaseItem           = WaterBottle,
+        MinimumWater       = 0.5,
+        MaxItems           = 4,
+        ResultItem         = JunkiezMoreSupplements.JunkiezShake,
+        Name               = Prepare Shake,
+        CanAddSpicesEmpty  = true,
+        AddIngredientSound = ShakeAddIngredient,
+    }
+    evolvedrecipe JunkiezBlendedShake {
+        BaseItem           = JunkiezMoreSupplements.JunkiezBlenderBottle,
+        MinimumWater       = 0.5,
+        MaxItems           = 4,
+        ResultItem         = JunkiezMoreSupplements.JunkiezBlendedShake,
+        Name               = Blend Shake,
+        CanAddSpicesEmpty  = true,
+        AddIngredientSound = ShakeAddIngredient,
+        Template           = Salad,
+    }
 }

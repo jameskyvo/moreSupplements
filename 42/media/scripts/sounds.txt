@@ -1,0 +1,8 @@
+module Base {
+    sound ShakeAddIngredient {
+        category = Player,
+        clip {
+            file = media/sound/ShakeAddIngredient.ogg,
+        }
+    }
+}
