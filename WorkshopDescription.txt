@@ -1,5 +1,5 @@
-[h1]Build 42 Unstable[/h1]
-There may be bugs in the unstable version! Please report them so I can fix them as they come. Some features are incomplete and only partially re-implemented from the B41 version of the mod. The fluid system introduced a lot of changes that required a lot of alterations to the mod.
+[h1]Bugs, Issues, And Suggestions[/h1]
+Although I've done my best to minimize them, some bugs may have slipped past me while updating to B42 stable. Let me know in the comments or github, and I will get to them as quickly as I can! Suggestions for new features are always welcome.
 
 [h1]More Workout Supplements![/h1]
 
@@ -15,7 +15,7 @@ This mod adds more workout supplements to Project Zomboid! Unique workout shakes
     [/tr]
     [tr]
         [td][img]https://i.imgur.com/olGQznK.png[/img][/td]
-        [td]A shake that can be crafted or found in the world. Made from a plastic bottle it can take liquid items or powdered supplements and be used to create unique shakes.[/td]
+        [td]A shake that can be crafted or found in the world. Made from a plastic bottle it can take powdered supplements and be used to create unique shakes.[/td]
     [/tr]
     [tr]
         [td][img]https://i.imgur.com/GAGwTWL.png[/img][/td]
@@ -49,14 +49,9 @@ This mod adds more workout supplements to Project Zomboid! Unique workout shakes
 [/table] 
 
 
-[h2]Planned Features:[/h2]
-More fine tuned spawning
-Fine tune recipes for B42
-Ability to add supplements to vanilla cooking recipes
-
 [h2]Credits[/h2]
-Huge thanks to Matogi and Albion from the Project Zomboid Modding Discord. This mod would not have been possible without either of them.
-[img]https://media1.giphy.com/media/wRhSi68hscY8xNOlXS/giphy.gif[/img]
+Huge thanks to Matogi, Albion, Sapph, and SimKDT, and all of the amazing community translators out there. This mod would not have been possible without any of you.
+[img]https://images.steamusercontent.com/ugc/821254107514556388/8997F813A74DE444A25F3F386D46C64C9241D2BB/[/img]
 
 [url=https://github.com/jameskyvo/moreSupplements] Github[/url] 
 Workshop ID: 3348466117
