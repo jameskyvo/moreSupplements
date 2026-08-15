@@ -130,32 +130,6 @@ module JunkiezMoreSupplements {
         WorldStaticModel = JunkiezFatBurnerPowder,
     }
 	
-    item JunkiezEnergyDrink {
-        DisplayCategory   = Food,
-        Tags              = junkiezmoresupplements:energydrink,
-        ItemType          = base:food,
-        Weight            = 0.3,
-        Icon              = JunkiezEnergyDrink,
-        FoodType          = SoftDrink,
-        CantBeFrozen      = TRUE,
-        EatType           = popcan,
-        Packaged          = TRUE,
-        ReplaceOnUse      = PopEmpty,
-        ThirstChange      = -10,
-        UnhappyChange     = -10,
-        FatigueChange     = -20,
-        EnduranceChange   = 20,
-        StressChange      = 10,
-        Calories          = 140,
-        Carbohydrates     = 39,
-        Lipids            = 0,
-        Proteins          = 0,
-        CustomContextMenu = Drink,
-        CustomEatSound    = DrinkingFromCan,
-        StaticModel       = JunkiezEnergyDrink,
-        WorldStaticModel  = JunkiezEnergyDrink,
-    }
-	
     item JunkiezProteinBar {
         DisplayCategory  = Food,
         Tags             = junkiezmoresupplements:proteinbar,
@@ -187,6 +161,21 @@ module JunkiezMoreSupplements {
             ContainerName    = BlenderBottle,
             capacity         = 0.8,
             CustomDrinkSound = DrinkingFromBottlePlastic,
+        }
+    }
+
+    item JunkiezEnergyDrink {
+        DisplayCategory  = WaterContainer,
+        Tags             = junkiezmoresupplements:energydrink,
+        Weight           = 0.1,
+        CanStoreWater    = TRUE,
+        ItemType         = base:normal,
+        Icon             = JunkiezEnergyDrink,
+        WorldStaticModel = JunkiezEnergyDrink,
+		
+        component FluidContainer {
+            capacity         = 0.5,
+            CustomDrinkSound = DrinkingFromCan,
         }
     }
 }
