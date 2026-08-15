@@ -1,0 +1,32 @@
+module JunkiezMoreSupplements {
+    fluid JunkiezEnergyDrink {
+        ColorReference = Cyan,
+        DisplayName    = Fluid_Junkiez_Energy_Drink,
+        Categories {
+            Beverage,
+        }
+        Properties {
+            fatigueChange      = -60.0,
+            HungerChange       = 0.0,
+            StressChange       = 0.0,
+            ThirstChange       = -15.0,
+            UnhappyChange      = -10.0,
+            Calories           = 2.0,
+            Carbohydrates      = 4.0,
+            Lipids             = 0.0,
+            Proteins           = 0.0,
+            alcohol            = 0.0,
+            fluReduction       = 0.0,
+            painReduction      = 0.0,
+            enduranceChange    = 1.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList {
+            whitelist = true,
+            categories {
+                Beverage,
+            }
+        }
+    }
+}
+        

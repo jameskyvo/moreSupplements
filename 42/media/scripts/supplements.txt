@@ -176,6 +176,10 @@ module JunkiezMoreSupplements {
         component FluidContainer {
             capacity         = 0.5,
             CustomDrinkSound = DrinkingFromCan,
+
+            Fluids {
+                fluid = JunkiezEnergyDrink:1.0,
+            }
         }
     }
 }
