@@ -1,7 +1,7 @@
 module JunkiezMoreSupplements {
     fluid JunkiezEnergyDrink {
         ColorReference = Cyan,
-        DisplayName    = Fluid_Junkiez_Energy_Drink,
+        DisplayName    = Fluid_Name_Junkiez_Energy_Drink,
         Categories {
             Beverage,
         }
